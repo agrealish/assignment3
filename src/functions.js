@@ -14,6 +14,10 @@
 
 //your code here
 
+function uselessFunction() {
+  return null;
+}
+
 //end your code
 
 var bar = 'not a function';
@@ -31,6 +35,19 @@ var barType = typeof bar;
 
 //your code here
 
+bar = function (dArray) {
+  var i;
+  var allDoubles = true;
+  for (i = 0; i < dArray.length; i++) {
+    if (!isNaN(dArray[i])) {
+      dArray[i] *= 2;
+    } else {
+      allDoubles = false;
+    }
+  }
+  return allDoubles;
+}
+
 //end your code
 
 /**
@@ -44,7 +61,7 @@ function GitLog(hash, date, message) {
     this.hash = hash;
     this.date = date;
     this.message = message;
-}
+} 
 
 /**
 * Create a function called parseGit to parse Git commit logs
@@ -66,5 +83,29 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+
+function parseGit(sArray) {
+  var gitArray = new Array();
+  var j;
+
+  for (j = 0; j < sArray.length; j++) {
+    var startInd = 0;
+    var endInd = sArray[j].indexOf(" ");
+    var gitHash = sArray[j].slice(startInd, endInd);
+
+    startInd = endInd;
+    endInd = sArray[j].indexOf("\"");
+    var gitDate = new Date(sArray[j].slice(startInd, (endInd - 1)));
+
+    startInd = endInd;
+    endInd = sArray[j].length - 1;
+    var gitMsg = sArray[j].substring((startInd + 1), endInd);
+
+    var newGitLog = new GitLog(gitHash, gitDate, gitMsg);
+    gitArray.push(newGitLog);
+  }
+  
+  return gitArray;
+}
 
 //end your code

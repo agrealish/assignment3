@@ -1,1 +1,20 @@
-You log goes in this  file.
+
+Start: Mon, 20 Apr 2015 08:43:00 -0700
+End: Mon, 20 Apr 2015 09:08:00 -0700
+Tasks: During this time I utilized the JSLint plugin in Notepad++ to determine correct syntax and fixed any errors that popped up.
+
+Start: Sun, 19 Apr 2015 07:32:00 -0700
+End: Sun, 19 Apr 2015 11:53:00 -0700
+Tasks: During this time I wrote out each function for the three .js files and tested them using 'qunit_runner.html' opened locally. continued to debug until tests were successful.
+
+Start: Sun, 19 Apr 2015 04:00:00 -0700
+End: Sun, 19 Apr 2015 04:25:00 -0700
+Tasks: During this time period I listed out the functions that I needed to modify and what needed to be modified about each function.
+
+Start: Sun, 12 Apr 2015 03:54:42 -0700
+End: Sun, 12 Apr 2015 03:54:42 -0700
+Tasks: Modified TA account
+
+Start: Sun, 12 Apr 2015 03:46:55 -0700
+End: Sun, 12 Apr 2015 03:46:55 -0700
+Tasks: initial commit
