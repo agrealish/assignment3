@@ -1,4 +1,8 @@
 
+Start: Sun, 26 Apr 2015 07:36:00 -0700
+End: Sun, 26, Apr 2015 11:55:00 -0700
+Tasks: worked on Assignement 3 part 2 and debugged.
+
 Start: Mon, 20 Apr 2015 08:43:00 -0700
 End: Mon, 20 Apr 2015 09:08:00 -0700
 Tasks: During this time I utilized the JSLint plugin in Notepad++ to determine correct syntax and fixed any errors that popped up.
